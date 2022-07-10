@@ -15,3 +15,9 @@ The variables that provided a non-random amount of variance to the mpg values. A
 The p-value of the model happens to be really small. 5.35e-11 therefore one would reject the null hypothesis. Which would imply that the slope would be a flat line given that it's not zero.   
 
 For the most part this linear model does predict the mpg of the Mecha car prototypes. Seeing that the R-squared value is 0.7149 or about 71%
+
+## Deliverable 2.
+
+## Suspension Coil Stats  
+
+The current data shows that lots one and two meet the specifications of not exceeding 100lbs per square inch. While lot 3 exceeds those parameters.
