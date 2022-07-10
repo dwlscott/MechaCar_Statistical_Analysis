@@ -20,3 +20,12 @@ total_summary <- Suspension_Coil %>% summarize(mean_PSI=mean(PSI),median_PSI=med
 
 #create a lot_summary df using the group by 
 lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(mean_PSI=mean(PSI),median_PSI=median(PSI),var_PSI=var(PSI),std_dev_PSI=sd(PSI))
+
+#D3
+# determine if the psi of  manufactring lots are different using the t-test fxn with a meant of 1500 PSI
+t.test(Suspension_Coil$PSI,mu=1500)
+
+#Use the t.test() and subset fxn to determine if the three manufacturing lots are statically different using the mean of 1500PSI
+t.test(subset(Suspension_Coil,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
+t.test(subset(Suspension_Coil,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+t.test(subset(Suspension_Coil,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
