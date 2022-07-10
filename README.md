@@ -21,3 +21,28 @@ For the most part this linear model does predict the mpg of the Mecha car protot
 ## Suspension Coil Stats  
 
 The current data shows that lots one and two meet the specifications of not exceeding 100lbs per square inch. While lot 3 exceeds those parameters.
+
+
+# Deliverable 3.
+
+## Using a population mean of 1500 use the t.test() fxn to determine if the manufacturing lots are statistically different.  
+
+Looking at the chart below, one can see that the sample mean is 1498.78. The p-value on the other hand happens to be 0.06028 which means that one would not reject the null hypothesis. As for each of the three lots, they are similar however, they are slightly different. 
+
+<img width="406" alt="Screen Shot 2022-07-10 at 11 12 53" src="https://user-images.githubusercontent.com/102453818/178156572-af0b2daa-d456-4054-8e33-81da7775a965.png">
+
+Lot 1 had a mean of 1500.0 but a p-value of 1.0 and therefore one can not reject the null hypothesis.
+
+<img width="469" alt="lot 1" src="https://user-images.githubusercontent.com/102453818/178156599-b07a27e3-8151-45b5-88f1-00990a88dde0.png">
+
+Lot 2 also had a similar mean, of 1500.2 and a p-value of 0.6072. With that we would not reject the null hypothesis.
+
+<img width="462" alt="lot 2" src="https://user-images.githubusercontent.com/102453818/178156630-50c78a32-4408-4a03-81ff-8c87167ad201.png">
+
+Lot 3 on the other hand had a mean of 1496.14 and a p-value of 0.04168. For this one, we would reject the null hypotheses, and conclude that the sample mean, and the population mean are not statistically different.
+
+<img width="472" alt="lot 3" src="https://user-images.githubusercontent.com/102453818/178156650-fb54ad88-0686-4422-8ada-4595963419ab.png">
+
+
+
+
