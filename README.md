@@ -43,6 +43,23 @@ Lot 3 on the other hand had a mean of 1496.14 and a p-value of 0.04168. For this
 
 <img width="472" alt="lot 3" src="https://user-images.githubusercontent.com/102453818/178156650-fb54ad88-0686-4422-8ada-4595963419ab.png">
 
+# Deliverable 4. 
+## Study Design: MechaCar vs. Competition 
+
+The goal is to compare MechCar prototype vehicles against competition vehicles. Comparing the mean test off line to long term. 
+
+## The metrics that are going to be used are:
+- Value - independent 
+- Reliability across 1,3, 6 years  - dependent 
+- Performance - independent 
+- Styling - independent 
+- Cost - independent 
+
+## HO and HA
+Null Hypothesis(HO) - MechaCars is going to outperform the competition vehicles in five metrics described above based on its reliability.
+Alternative Hypothesis(HA) - MechaCars is not going to outperform its competitors in the five metrics above, because of how new it is.  
+
+The statistical test that would need to be used. In order to test the hypothesis, would be a multiple linear regression. Because of the multiple independent variables, and one dependent variable being compared to. 
 
 
 
