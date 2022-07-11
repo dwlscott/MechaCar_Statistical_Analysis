@@ -2,6 +2,8 @@
 
 ## Background 
 
+Here we are helping analyze some data for a prototype car. The Assignment is to perform a multiple linear regression analysis. To identify the variables in the given data set, to predict the MPG of the MecaCar. Then collect a summary on the PSI of the suspension coils. Followed by running a t-test to determine if the manufacturing lots are going to be different based on the mean of the population mean. Finally, design a statistical study to compare vehicle performance. 
+
 ## Deliverable 1.
 
 ### Linear Regression To predict MPG
